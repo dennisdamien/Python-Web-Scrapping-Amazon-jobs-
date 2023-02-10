@@ -2,9 +2,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
-import os
 import json
-import time
+
 
 browser=webdriver.Chrome()
 url="https://www.amazon.jobs/en-gb/job_categories/software-development"
